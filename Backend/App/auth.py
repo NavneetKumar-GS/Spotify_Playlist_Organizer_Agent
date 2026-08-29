@@ -24,4 +24,4 @@ def spotify_login(sp_oauth: SpotifyOAuth = Depends(get_spotify_oauth)):
 def callback(code: str , sp_oauth: SpotifyOAuth = Depends(get_spotify_oauth)):
     token_info = sp_oauth.get_access_token(code)
 
-    return RedirectResponse(url=f"http://localhost:5173?token={token_info['access_token']}")
+    return RedirectResponse(url=f"http://localhost:5173?token={token_info['access_token']}") 
