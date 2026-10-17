@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from . import auth
-
+from . import spotify
+from . import ai_routes
 
 app = FastAPI()
 
@@ -13,8 +14,10 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
+app.include_router(spotify.router)
+app.include_router(ai_routes.router)
 
-@app.get("/health")
+@app.get("/")
 def health():
     return {"Ok": True}
 
