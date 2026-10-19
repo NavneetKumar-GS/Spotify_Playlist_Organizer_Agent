@@ -1,7 +1,7 @@
 <div align="center">
   <div style="display: flex; align-items: center; justify-content: center; gap: 12px;">
     <img src="Frontend/public/filterd.png" alt="Filterd Logo" width="50" height="50" style="border-radius: 50%; object-fit: cover;" />
-    <h1 style="margin: 0; display: inline-block;">Filterd 🎧</h1>
+    <h1 style="margin: 0; display: inline-block;">Filterd</h1>
   </div>
   <p align="center">
     <b>An Agentic AI-powered Spotify playlist curator and smart music filtering agent.</b>
