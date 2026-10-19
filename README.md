@@ -1,9 +1,10 @@
 <div align="center">
-  <h1 align="center">Filterd 🎧</h1>
-  <p align="center">
+  <img src="Frontend/public/filterd.png" alt="Filterd Logo" width="80" height="80" style="border-radius: 16px;" />
+  <h1>Filterd 🎧</h1>
+  <p>
     <b>An Agentic AI-powered Spotify playlist curator and smart music filtering agent.</b>
   </p>
-  <p align="center">
+  <p>
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
     <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
