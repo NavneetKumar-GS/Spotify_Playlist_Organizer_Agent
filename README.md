@@ -1,15 +1,12 @@
 <div align="center">
-
-  <table>
-  <tr>
-  <td> <h1>Filterd </h1> </td>
-  <td> <img src="Frontend/public/filterd.png" alt="Filterd Logo" width="80" height="80" style="border-radius: 16px;" /> </td>
-    </tr>
-  </table>
-  <p>
+  <div style="display: flex; align-items: center; justify-content: center; gap: 12px;">
+    <img src="public/filterd.png" alt="Filterd Logo" width="50" height="50" style="border-radius: 50%; object-fit: cover;" />
+    <h1 style="margin: 0; display: inline-block;">Filterd 🎧</h1>
+  </div>
+  <p align="center">
     <b>An Agentic AI-powered Spotify playlist curator and smart music filtering agent.</b>
   </p>
-  <p>
+  <p align="center">
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
     <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
