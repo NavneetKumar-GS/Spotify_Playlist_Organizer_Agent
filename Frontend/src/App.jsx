@@ -1,10 +1,10 @@
 import ConnectButton from "./components/ConnectButton";
-import Dashboard from './components/ConnectButton'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
     <div>
-      <ConnectButton />
+      {/* <ConnectButton /> */}
       <Dashboard />
 
     </div>

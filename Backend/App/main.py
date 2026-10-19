@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from . import auth
 from . import spotify
 from . import ai_routes
+from . import create_playlist
+from . import User_info
 
 app = FastAPI()
 
@@ -16,6 +18,8 @@ app.add_middleware(
 app.include_router(auth.router)
 app.include_router(spotify.router)
 app.include_router(ai_routes.router)
+app.include_router(create_playlist.router)
+app.include_router(User_info.router)
 
 @app.get("/")
 def health():
