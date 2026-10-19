@@ -187,7 +187,7 @@ export default function Dashboard() {
 
       {/* CUSTOM TOAST NOTIFICATION */}
       {toast.show && (
-        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-[100] animate-in slide-in-from-top-5 fade-in duration-300">
+        <div className="fixed top-6 left-1/2 -translate-x-1/2 z-100 animate-in slide-in-from-top-5 fade-in duration-300">
           <div className={`px-6 py-3 rounded-full shadow-lg font-bold text-sm border ${
             toast.type === "success" 
               ? "bg-[#1DB954]/10 text-[#1DB954] border-[#1DB954]/30" 
@@ -200,7 +200,7 @@ export default function Dashboard() {
 
       {/* CUSTOM CONFIRMATION MODAL */}
       {showConfirmModal && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-100 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
           <div className="bg-[#1E1E1E] border border-zinc-800 rounded-2xl p-6 max-w-md w-full shadow-2xl animate-in fade-in zoom-in duration-200">
             <h3 className="text-xl font-bold text-white mb-2">Confirm Playlist</h3>
             <p className="text-zinc-400 text-sm mb-6">
@@ -287,7 +287,7 @@ export default function Dashboard() {
         <div className="grid md:grid-cols-2 gap-6 mb-10">
           
           <div className="bg-[#1E1E1E] p-6 rounded-2xl border border-zinc-800 shadow-lg relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#1DB954] to-transparent opacity-50"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-[#1DB954] to-transparent opacity-50"></div>
             <h2 className="text-lg font-bold mb-4 flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-[#1DB954]" />
               Vibe Analysis
@@ -311,7 +311,7 @@ export default function Dashboard() {
           </div>
 
           <div className="bg-[#1E1E1E] p-6 rounded-2xl border border-zinc-800 shadow-lg relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-zinc-500 to-transparent opacity-20"></div>
+            <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-zinc-500 to-transparent opacity-20"></div>
             
             <div className="flex justify-between items-center mb-4">
                 <h2 className="text-lg font-bold flex items-center gap-2">
@@ -343,7 +343,7 @@ export default function Dashboard() {
         </div>
 
         {/* RESULTS AREA */}
-        <div className="bg-[#1E1E1E] rounded-2xl border border-zinc-800 p-6 shadow-lg min-h-[400px]">
+        <div className="bg-[#1E1E1E] rounded-2xl border border-zinc-800 p-6 shadow-lg min-h-100">
           
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-4 border-b border-zinc-800 gap-4">
             <h2 className="text-xl font-bold flex items-center gap-2">
