@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="Frontend/public/filterd.png" alt="Filterd Logo" width="80" height="80" style="border-radius: 16px;" />
-  <h1>Filterd 🎧</h1>
+  <h1>Filterd <img src="Frontend/public/filterd.png" alt="Filterd Logo" width="80" height="80" style="border-radius: 50%" /> </h1>
   <p>
     <b>An Agentic AI-powered Spotify playlist curator and smart music filtering agent.</b>
   </p>
